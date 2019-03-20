@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <title>Triva Game</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</head>
+
+<body>
+
+
+
+    <div class="container" style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; align-items: center">
+
+        <body background="assets/images/backgroung.jpg "></body>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="jumbotron">
+                        <h1 class="display-4">How well do you know 90's cartoons?</h1>
+
+                        <hr class="my-4">
+                        <p>Take this short test to find out!</p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <form id="quiz" name="quiz">
+
+
+                                <p class="questions">From the show Doug on Nickelodeon, what was Dougs last name? </p>
+
+                                <input type="radio" id="mc" name="question1" value="Funny"> Funny <br>
+                                <input type="radio" id="mc" name="question1" value="Hilarious"> Hilarious<br>
+                                <input type="radio" id="mc" name="question1" value="Jackson"> Jackson<br>
+
+                                <br>
+                                <p class="questions">What are Pinky and The Brains plans to do everyday? </p>
+                                <br>
+                                <input type="radio" id="mc" name="question2" value="Create things in their labaratory">
+                                Create things in their labaratory <br>
+                                <input type="radio" id="mc" name="question2" value="Kill other animals "> Kill other
+                                animals <br>
+                                <input type="radio" id="mc" name="question2" value="Take over the world"> Take over the
+                                world<br>
+
+                                <br>
+                                <p class="questions">What are the names of the twins from the show Rugrats?</p>
+                                <br>
+                                <input type="radio" id="mc" name="question3" value="Tommy and Susie"> Tommy and Susie
+                                <br>
+                                <input type="radio" id="mc" name="question3" value="Joey and Tabitha"> Joey and Tabitha<br>
+                                <input type="radio" id="mc" name="question3" value="Lil and Phil"> Lil and Phil <br>
+                                <br>
+
+                                <p class="questions">In the CatDog, what was Dog's favorite pasttime?</p>
+                                <br>
+                                <input type="radio" id="mc" name="question4" value="Chasing Cars"> Chasing Cars<br>
+                                <input type="radio" id="mc" name="question4" value="Chasing the mailman "> Chasing the
+                                mailman <br>
+                                <input type="radio" id="mc" name="question4" value="Chasing his tail"> Chasing his tail
+                                <br>
+                                <br>
+                                <br>
+
+
+                                <input id="button" type="button" value="Check your Answers!" onclick="check();">
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="after_submit">
+            <p id="number_correct"></p>
+            <p id="message"></p>
+            <img id="picture">
+        </div>
+
+
+</body>
+
+</html>

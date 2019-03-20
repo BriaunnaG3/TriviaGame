@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  
+
+}
+
+#after_sumbit{
+    visibility: hidden;
+
+}
+html { 
+    background: url(assets/images/backgroung.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
